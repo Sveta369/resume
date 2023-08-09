@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мое резюме | Светлана Журавель - Веб-разработчик</title>
+    <meta
+      description
+      content="Я Светлана Журавель, опытный веб-разработчик с уклоном во Front-end разработку. Здесь вы найдете информацию о моем опыте, навыках и проектах."
+    />
+    <meta
+      keywords
+      content="resume, Svetlana Zhuravel, web developer, Front-end, HTML, CSS, JavaScript, projects"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="image">
+          <img src="avatar.jpg" alt="avatar" />
+        </div>
+
+        <div class="info">
+          <h1>Светлана Журавель</h1>
+
+          <div class="card bg-lilac">
+            <p>
+              Я являюсь опытным веб-разработчиком с фокусом на
+              <strong>Front-end</strong> технологиях.
+            </p>
+
+            <p>
+              Мои сильные стороны - разработка пользовательских интерфейсов с
+              использованием <em>HTML, CSS и JavaScript</em>.
+            </p>
+          </div>
+
+          <div class="card bg-pink">
+            <h4><strong>Список социальных сетей:</strong></h4>
+
+            <div class="social-links">
+              <a href="https://instagram.com/svetazhuravel/" target="_blank"
+                >Instagram</a
+              >
+
+              |
+
+              <a href="https://t.me/svetazhuravel" target="_blank">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-lilac">
+        <h2>Мои хобби</h2>
+
+        <div class="centered">
+          <ol>
+            <li>Изучение новых языков программирования</li>
+            <li>Чтение</li>
+            <li>Сальса</li>
+            <li>Бег</li>
+            <li>Спорт</li>
+            <li>Путешествия и открытие новых мест</li>
+            <li>Йога</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="card bg-pink">
+        <h2>Опыт работы</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>Экспресс-Кубань</td>
+              <td>Специалист по экспорту</td>
+              <td>2016 — 2017</td>
+            </tr>
+            <tr>
+              <td>JTI</td>
+              <td>Дивизионный аналитик отдела продаж</td>
+              <td>2017 — 2021</td>
+            </tr>
+            <tr>
+              <td>Ярвет</td>
+              <td>Маркетолог-аналитик</td>
+              <td>2021 — 2021</td>
+            </tr>
+            <tr>
+              <td>IBS</td>
+              <td>Менеджер по поддержке бизнеса</td>
+              <td>2021 — сейчас</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="label-text" for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+
+          <div class="form-group">
+            <label class="label-text" for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="label-text" for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="25"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn">Отправить!</button>
+      </form>
+    </div>
+  </body>
+</html>
